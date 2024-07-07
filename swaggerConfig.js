@@ -10,7 +10,7 @@ const options = {
       },
       servers: [
         {
-          url: 'http://localhost:4000/api/v1', // This includes the base path
+          url: 'https://walletapis.onrender.com/api/v1', // This includes the base path
         },
       ],
       components: {
