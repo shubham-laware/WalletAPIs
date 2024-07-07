@@ -6,11 +6,19 @@ const options = {
       info: {
         title: 'Wallet API',
         version: '1.0.0',
-        description: 'All APIs for wallet',
+        description: `All APIs for wallet. 
+
+**Important Notes:**
+- To perform any request, user must be a registered user.
+- Test Credentials:
+  - Email: rohit@gmail.com
+  - Password: 12345
+
+Please use these credentials for testing purposes.`,
       },
       servers: [
         {
-          url: 'https://walletapis.onrender.com', // Remove /api/v1 from here
+          url: 'https://walletapis.onrender.com',
         },
       ],
       components: {
