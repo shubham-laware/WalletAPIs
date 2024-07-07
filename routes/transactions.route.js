@@ -9,7 +9,7 @@ const transactionRouter = Router();
 
 /**
  * @swagger
- * /txn/deposit:
+ * /api/v1/txn/deposit:
  *   post:
  *     summary: Deposit funds
  *     tags: [Transactions]
@@ -38,7 +38,7 @@ transactionRouter.post('/deposit', authenticate, depositTx);
 
 /**
  * @swagger
- * /txn/transfer:
+ * /api/v1/txn/transfer:
  *   post:
  *     summary: Transfer funds
  *     tags: [Transactions]
@@ -70,7 +70,7 @@ transactionRouter.post('/transfer', authenticate, transferTx);
 
 /**
  * @swagger
- * /txn/withdraw:
+ * /api/v1/txn/withdraw:
  *   post:
  *     summary: Withdraw funds
  *     tags: [Transactions]
@@ -102,7 +102,7 @@ transactionRouter.post('/withdraw', authenticate, withdrawTx);
 
 /**
  * @swagger
- * /txn/transactions:
+ * /api/v1/txn/transactions:
  *   get:
  *     summary: Get transaction history
  *     tags: [Transactions]

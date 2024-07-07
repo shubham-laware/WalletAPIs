@@ -10,7 +10,7 @@ const options = {
       },
       servers: [
         {
-          url: 'https://walletapis.onrender.com/api/v1', // This includes the base path
+          url: 'https://walletapis.onrender.com', // Remove /api/v1 from here
         },
       ],
       components: {
@@ -25,7 +25,6 @@ const options = {
       security: [{ bearerAuth: [] }],
     },
     apis: ['./routes/*.js'],
-   
-  };
+};
 
 export const specs = swaggerJsdoc(options);

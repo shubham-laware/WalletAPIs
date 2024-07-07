@@ -5,7 +5,7 @@ const authRouter = Router();
 
 /**
  * @swagger
- * /auth/login:
+ * /api/v1/auth/login:
  *   post:
  *     summary: User login
  *     tags: [Authentication]
@@ -33,7 +33,7 @@ authRouter.post('/login', loginController);
 
 /**
  * @swagger
- * /auth/signup:
+ * /api/v1/auth/signup:
  *   post:
  *     summary: User signup
  *     tags: [Authentication]

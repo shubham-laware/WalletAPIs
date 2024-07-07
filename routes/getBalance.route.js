@@ -6,7 +6,7 @@ const getBalanceRouter = Router();
 
 /**
  * @swagger
- * /account/balance:
+ * /api/v1/account/balance:
  *   get:
  *     summary: Get user balance
  *     tags: [Account]
